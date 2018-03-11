@@ -1,2 +1,1 @@
-# Wordpress Tutorial: Simple Theme
-# wpTutorial02Advanced
+# Wordpress Tutorial 2: Advanced Theme 
