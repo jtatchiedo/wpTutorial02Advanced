@@ -1,16 +1,15 @@
-
-    <div class="sidebar">
-        <?php if (is_active_sidebar('sidebar')) : ?>
-            <?php dynamic_sidebar('sidebar');  ?>
-        <?php endif; ?>
-    </div>
-
-    <div class="clr"></div>
-</div>
-
-    <footer>
+    <footer class="main-footer">
         <div class="container">
-            <p>&copy; <?php the_date('Y'); ?> - <?php bloginfo('name'); ?></p>
+            <div class="f_left">
+                <p>&copy; 2018 - Advanced WP Themes</p>
+            </div>
+            <div class="f_right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+            </div>
         </div>
     </footer>
 
