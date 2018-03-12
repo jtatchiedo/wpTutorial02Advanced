@@ -1,5 +1,5 @@
 /*
- * Theme Name: Advanced
+ * Theme Name: Advanced WP
  * Author: Jamie Tudor
  * Author URI: http://whatever.com
  * Description: Advanced Wordpress Theme 
@@ -142,6 +142,10 @@ article.post .meta {
     background: #009acd;
     color: #fff;
     padding: 7px;
+}
+
+article.post .meta a {
+    color: #fff;
 }
 
 .button {
