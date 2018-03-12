@@ -220,3 +220,37 @@ article.post-gallery {
     margin: 0;
     padding: 0;
 }
+
+.phone {
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.sub-nav {
+    margin-top: 10px;
+    float: right;
+    width: 300px;
+}
+
+.sub-nav ul {
+    float: right;
+}
+
+.sub-nav .parent-link {
+    font-weight: bold;
+    color: #000;
+    float: left;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #009acd;
+}
+
+.sub-nav .current_page_item {
+    font-weight: bold;
+}
+
+.clr {
+    clear: both;
+}
