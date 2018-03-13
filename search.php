@@ -15,11 +15,9 @@
     </main>
 
     <div class="side">
-        <div class="block">
-            <h3>Sidebar Bar</h3>
-            <p>It's just like the story of the grasshopper and the octopus. All year long, the grasshopper kept burying acorns for winter, while the octopus mooched off his girlfriend and watched TV. But then the winter came, and the grasshopper died, and the octopus ate all his acorns. Also he got a race car. Is any of this getting through to you? Why not indeed!</p>
-            <a class="button" href="#">More</a>
-        </div>
+        <?php if (is_active_sidebar('sidebar')) : ?>
+            <?php dynamic_sidebar('sidebar'); ?>
+        <?php endif; ?>
     </div>
 
 </div>
